@@ -1,6 +1,4 @@
 export function SharedSubscriptions() {
-  debugger;
-  //const subscribers = new Set();
   const subscribers: { [key: string]: Set<any> } = {};
   return {
     subscribe: (topic: string, subscriber: any) => {
