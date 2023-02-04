@@ -8,13 +8,11 @@
 .contentContainer {
   display: flex;
   flex-direction: row;
-  padding: 50px;
-  background-color: #f3f6f9;
+  padding: 0 50px;
 }
 
 .catalogContainer {
   width: 70%;
-  /*//text-align: center;*/
   color: white;
 }
 
@@ -27,4 +25,11 @@
   position: sticky;
   top: 0;
   padding-left: 40px;
+}
+
+.stickyHeader {
+  background-color: #f3f6f9;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }

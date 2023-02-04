@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react';
 import React from 'react';
-import IconButton from '@mui/material/IconButton';
 import { styled } from '@mui/material/styles';
 import Grid from '@mui/material/Grid';
 import Paper from '@mui/material/Paper';
@@ -36,8 +35,7 @@ const CartIcon = () => {
   return (
     <Grid
       container
-      sx={{ display: 'flex', alignItems: 'flex-end', flexDirection: 'column' }}
-    >
+      sx={{ display: 'flex', alignItems: 'flex-end', flexDirection: 'column' }}>
       <Item>
         <ShoppingCartIcon fontSize="large" /> {total ? `(${total})` : ''}
       </Item>
