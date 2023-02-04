@@ -5,7 +5,7 @@ import Box from '@mui/material/Box';
 import { loadRemoteModule } from '@virtual-store/load-remote-module';
 
 const Cart = lazy(() => loadRemoteModule('cart', './CartIcon'));
-export const API_URL = '/assets/products.json';
+export const API_URL = 'http://localhost:4201/assets/products.json';
 
 export function App() {
   const [items, setItems] = useState<any[]>([]);
