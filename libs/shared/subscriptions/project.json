@@ -1,0 +1,26 @@
+{
+  "name": "shared-subscriptions",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/shared/subscriptions/src",
+  "projectType": "library",
+  "targets": {
+    "build": {
+      "executor": "@nrwl/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/libs/shared/subscriptions",
+        "main": "libs/shared/subscriptions/src/index.ts",
+        "tsConfig": "libs/shared/subscriptions/tsconfig.lib.json",
+        "assets": ["libs/shared/subscriptions/*.md"]
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/shared/subscriptions/**/*.ts"]
+      }
+    }
+  },
+  "tags": []
+}

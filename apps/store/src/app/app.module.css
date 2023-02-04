@@ -1,0 +1,30 @@
+/* Your styles goes here. */
+
+.container {
+  padding: 50px;
+  background-color: #f3f6f9;
+}
+
+.contentContainer {
+  display: flex;
+  flex-direction: row;
+  padding: 50px;
+  background-color: #f3f6f9;
+}
+
+.catalogContainer {
+  width: 70%;
+  /*//text-align: center;*/
+  color: white;
+}
+
+.cartContainer {
+  width: 30%;
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding-left: 40px;
+}

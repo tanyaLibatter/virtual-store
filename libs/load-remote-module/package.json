@@ -1,0 +1,8 @@
+{
+  "name": "@virtual-store/load-remote-module",
+  "version": "0.0.1",
+  "type": "commonjs",
+  "dependencies": {
+    "core-js": "^3.27.2"
+  }
+}
