@@ -2,6 +2,9 @@
   "name": "virtual-store",
   "version": "0.0.0",
   "license": "MIT",
+  "engines": {
+    "node": ">=16.10.0"
+  },
   "scripts": {
     "start": "nx run-many --parallel --target=serve --open --projects=items,store,cart --maxParallel=100"
   },
